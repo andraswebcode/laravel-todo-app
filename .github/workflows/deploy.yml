@@ -7,8 +7,8 @@ on:
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
   REGION: europe-west1
-  REPOSITORY: devops-demo
-  IMAGE: devops-demo
+  REPOSITORY: laravel-demo
+  IMAGE: laravel-demo
 
 jobs:
   deploy:
